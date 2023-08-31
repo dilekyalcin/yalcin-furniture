@@ -1,0 +1,72 @@
+@media (min-width: 768px) {
+  #top {
+    display: flex;
+  justify-content: space-between;
+  }
+
+  #topItem1,
+  #topItem2,
+  #topItem3 {
+    flex: 1;
+    padding: 60px;
+    display: flex;
+  flex-direction: column;
+  }
+}
+
+/* Küçük ekranlar için stiller */
+@media (max-width: 767px) {
+  #top {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #topItem1,
+  #topItem2,
+  #topItem3 {
+    flex: none;
+    padding: 20px;
+    text-align: center;
+  }
+  #topItem2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px; /* Üstten boşluk ekle */
+  }
+}
+
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .contact-item p {
+    margin-left: 8px;
+  }
+  #topItem2{
+    display: flex;
+    align-items: center;
+
+  }
+  
+  
+  .social-icons > *:not(:last-child) {
+    margin-right: 8px;
+  }
+  
+  #bottom {
+    text-align: center;
+    color: white;
+    padding: 16px 0;
+  }
+  
+  .divider {
+    background-color: white;
+    width: 100%;
+    margin: 16px 0;
+  }
+  

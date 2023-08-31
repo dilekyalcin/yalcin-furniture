@@ -1,0 +1,38 @@
+/* CustomSwiperStyles.css */
+
+/* Swiper bileşeni için ana konteyner */
+.swiper-container {
+  overflow: hidden;
+}
+
+/* Swiper slayt içeriği için stil ayarları */
+.swiper-slide {
+  display: flex;
+  justify-content: center; /* İçeriği yatayda ortala */
+  align-items: center; /* İçeriği dikeyde ortala */
+  @media (max-width: 768px) {
+    margin: 0.25rem; /* Daha küçük ekranlar için daha az boşluk */
+  }
+}
+
+/* Card bileşeni için stiller */
+.custom-card {
+  width: 100%;
+  max-width: 350px; /* Karta maksimum genişlik ver */
+
+  @media (max-width: 768px) {
+    max-width: 150px; /* Daha küçük ekranlar için daha dar kartlar */
+  }
+}
+.card-media {
+  max-width: 100%; /* Resimleri en geniş haliyle göster */
+  height: auto; /* Yükseklik otomatik ayarlanacak */
+  object-fit: contain; /* Resimler içine sığacak şekilde ölçeklenecek */
+}
+
+.trends-header {
+  text-align: left; /* Başlığı sola hizala */
+  margin-top: 30px; /* Üstten boşluk ver */
+  margin-left: 40px;
+  color: #7A7D7E;
+}

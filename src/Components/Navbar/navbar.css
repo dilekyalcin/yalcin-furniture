@@ -1,0 +1,14 @@
+.tabs{
+  color:black;
+} 
+#button1{
+  margin-left: auto;
+  background-color: black;
+}
+#button2{
+  margin-left: 10px;
+  background-color: black;
+}
+.logo{
+  width: 50px;
+}
